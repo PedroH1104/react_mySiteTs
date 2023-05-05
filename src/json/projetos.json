@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "titulo": "Alura Books",
+        "descricao": "Projeto de um site que desenvolvi durante o curso de HTML e CSS: responsividade com mobile-first.",
+        "to": "https://alura-books-nine-ashy.vercel.app"        
+    },
+    {
+        "id": 2,
+        "titulo": "Alura Língua",
+        "descricao": "Projeto de um site que desenvolvi durante o curso de HTML e CSS: praticando HTML/CSS da Alura.",
+        "to": "https://alura-lingua.vercel.app"        
+    },
+    {
+        "id": 3,
+        "titulo": "Hzc",
+        "descricao": "Projeto de um site que desenvolvi durante o curso de CSS: dispondo elementos com Flexbox e Grid da Alura.",
+        "to": "https://hzc-delta.vercel.app"        
+    },
+    {
+        "id": 4,
+        "titulo": "Alura SPA",
+        "descricao": "Projeto de um site que desenvolvi durante o curso de SASS: CSS sintaticamente espetacular da Alura.",
+        "to": "https://alura-spa-eta.vercel.app"        
+    },
+    {
+        "id": 5,
+        "titulo": "Robotron",
+        "descricao": "Projeto que desenvolvi durante o curso de JavaScript: manipulando o DOM da Alura.",
+        "to": "https://alura-books-nine-ashy.vercel.app"        
+    },
+    {
+        "id": 6,
+        "titulo": "Mochila de Viagem",
+        "descricao": "Projeto que desenvolvi durante o curso de JavaScript na Web: armazenando dados no navegador.",
+        "to": "https://mochila-de-viagem-two.vercel.app"        
+    },
+    {
+        "id": 7,
+        "titulo": "Nutricionista",
+        "descricao": "Projeto que desenvolvi durante o curso de JavaScript: programando na linguagem da web.",
+        "to": "https://nutricionista-tau.vercel.app"        
+    },
+    {
+        "id": 8,
+        "titulo": "Número Secreto",
+        "descricao": "Projeto que desenvolvi durante o curso JavaScript: validações e reconhecimento de voz ",
+        "to": "https://numero-secreto-orpin.vercel.app"        
+    },
+    {
+        "id": 9,
+        "titulo": "Seletiva BBG",
+        "descricao": "Projeto que desenvolvi durante o curso de React: desenvolvendo com JavaScript",
+        "to": "https://site-react01.vercel.app"        
+    },
+    {
+        "id": 10,
+        "titulo": "ContextAPI",
+        "descricao": "Projeto que desenvolvi durante o curso de React: gerenciamento de estados globais com ContextAPI",
+        "to": "https://react-context-api-plum.vercel.app"        
+    },
+    {
+        "id": 11,
+        "titulo": "Aluroni",
+        "descricao": "Projeto que desenvolvi durante o curso de React: lidando com arquivos estáticos",
+        "to": "https://cardapio-ts-five.vercel.app"        
+    },
+    {
+        "id": 12,
+        "titulo": "AluraStudie",
+        "descricao": "Projeto que desenvolvi durante o curso de React: escrevendo com Typescript",
+        "to": "https://organo-ts-1t15.vercel.app"        
+    }
+]
+

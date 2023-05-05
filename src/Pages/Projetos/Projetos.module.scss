@@ -1,0 +1,45 @@
+.projetos {
+    margin: 60px 0 100px 0;
+    display: flex;
+    position: relative;    
+    flex-direction: column;
+    align-items: center;
+
+    &__titulo {
+        margin-bottom: 60px;
+        font-size: 48px;
+        color: var(--azul-escuro);
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 48px 32px; 
+
+        li {
+            list-style: none;
+        }
+    }
+}
+
+@media (max-width: 480px) {  
+    .projetos {
+        padding: 2em 5% 2em 5%;
+        width: 100%;
+        background-color: var(--azul-escuro);  
+        margin: 0; 
+
+        &__titulo {
+            font-size: 28px;
+            color: var(--branco);
+            margin: 0 0 20px 0;
+        }
+
+        &__container {
+            margin: 0;
+            padding: 0;
+            gap: 32px 0;
+        }
+    }      
+}

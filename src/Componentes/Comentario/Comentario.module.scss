@@ -1,0 +1,50 @@
+.comentario {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+     
+    
+    &__icone {
+        font-size: 35px;
+        margin-right: 6px;
+    }
+
+    h1, p {
+        color: var(--preto);
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) { 
+    .comentario {
+        &__icone{
+            font-size: 30px;
+            color: var(--branco);
+        }
+
+        h1 {
+            font-size: 18px;
+            color: var(--branco);
+        }
+        
+        p {
+            font-size: 14px;
+            color: var(--branco);   
+        }
+    }
+}

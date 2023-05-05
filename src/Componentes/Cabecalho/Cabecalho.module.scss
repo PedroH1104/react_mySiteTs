@@ -1,0 +1,104 @@
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 10em 30px 10em;
+    background-color: var(--azul-escuro);
+    color: var(--branco); 
+
+    &__apresentacao {
+        padding-right: 35px;
+
+        h1 {
+            font-size: 64px;
+            margin: 32px 0;
+        }
+
+        p {
+            font-size: 24px;
+            line-height: 32px;
+            color: var(--branco);    
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            border-bottom: 1px solid white;
+        }
+    }
+
+    &__imagens {
+        position: relative;
+        height: 390px;
+
+        &__circulo {
+            position: absolute;
+            right: 7vw;
+            top: 0vw;
+            width: 18vw;
+        }
+
+        &__perfil {
+            position: absolute;
+            top: 1vw;
+            right: 60px;
+            bottom: 50px;
+            width: 16vw;
+            border-radius: 50%;
+        }
+    }
+}
+
+.mobile {
+    display:none
+}
+
+@media (max-width: 480px) {  
+    .desktop {
+        display: none;
+    }      
+
+    .mobile{
+        display: block;    
+        
+        &__cabecalho{
+            width: 100%;            
+            background-color: var(--branco); 
+            display: flex;
+            justify-content: space-between;
+            
+            &__icone {
+                font-size: 50px;
+                margin: 5px 5px;                                                        
+            }
+        }
+
+        img {
+            width: 55px;
+            height: 55px;            
+        }
+        
+        &__nav {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--branco);
+            width: 50vw;            
+            height: 100vh;
+            position: absolute;
+            left: -100vw;
+            transition: .25s;
+
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: start;                        
+            }
+        }
+
+        &__nav a {            
+            margin-bottom: 7px;
+            height: 45px;
+        }
+    }
+    
+    .aparecer {
+        left: 0;                /* Para reaparecer o menu lateral */
+        transition: .25s;
+    }
+}

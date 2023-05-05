@@ -1,0 +1,40 @@
+[
+    {
+        "nome": "Formação - HTML e CSS (65hrs) - Alura",
+        "link": "https://cursos.alura.com.br/degree/certificate/75d16e59-fc3a-4dee-8437-b7517531702d"
+    },
+    {
+        "nome": "Formação - Desenvolva aplicações web com javascript (60hrs) - Alura",
+        "link": "https://cursos.alura.com.br/degree/certificate/9deebd9f-1035-40ca-bae9-590d5afedb60"
+    },
+    {
+        "nome": "Formação - Explore react com JavaScript (65hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/degree-react-javascript-450960/certificate"
+    },
+    {
+        "nome": "React: escrevendo com Typescript (12hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/course/react-modernizando-escrever-typescript/certificate"
+    },
+    {
+        "nome": "React: lidando com arquivos estáticos (10hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/course/react-arquivos-estaticos/certificate"
+    },
+    {
+        "nome": "JavaScript: programando na linguagem da web (20hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/course/javascript-programando-na-linguagem-web/certificate"
+    },
+    {
+        "nome": "Lógica de programação: laços e listas com Javascript (4hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/course/javascript-listas-lacos/certificate"
+    },
+    {
+        "nome": "Lógica de programação: comece em lógica com o jogo Pong e Javascript (6hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/course/pong-javascript/certificate"
+    },
+    {
+        "nome": "SASS: CSS sintaticamente espetacular (8hrs) - Alura",
+        "link": "https://cursos.alura.com.br/user/pedrohenrique110401/course/sass-css-sintaticamente-espetacular/certificate"
+    }
+]
+
+

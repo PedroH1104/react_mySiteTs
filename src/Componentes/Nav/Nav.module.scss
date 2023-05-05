@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    &__icone {
+        margin-right: 6px;
+    }
+
+    &__a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;        
+        font-size: 24px;
+        line-height: 24px;        
+        color: var(--branco);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }    
+}
+
+@media (max-width: 480px) {
+    
+    .nav__a {
+        color: var(--azul-escuro);
+        padding-left: 30px;    
+        display: flex;
+        align-items: center;
+    }
+}
+

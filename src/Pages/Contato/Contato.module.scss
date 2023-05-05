@@ -1,0 +1,122 @@
+.contato {
+    text-align: start;   
+
+    &__form {       
+        
+        margin-bottom: 50px;
+        
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: var(--preto);
+            font-size: 48px;
+        }
+
+        button {            
+            background-color: var(--azul-escuro);
+            color: var(--branco);
+            font-size: 20px;
+            padding: 18px;
+            border-radius: 20px;
+            border: 3px solid var(--azul-escuro);
+
+            &:hover {
+                cursor: pointer;
+                border-color: var(--azul-medio);
+            }
+        }
+    }
+    
+    &__comentarios {
+        padding-bottom: 35px;
+        border-bottom: 2px solid var(--azul-escuro);
+        margin-bottom: 45px;
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            font-size: 48px;            
+        }
+    }
+
+    &__titulo {
+        font-size: 32px;
+    }
+
+    &__opcao, a {
+        font-size: 22px;
+        margin: 0;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--azul-escuro);
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    &__opcao__icone {
+        margin-right: 6px;
+    }
+}
+
+@media (max-width: 480px) {  
+
+    .contato {
+        padding: 2em 5% 2em 5%;
+        width: 100%;       
+        background-color: var(--azul-escuro);      
+
+        &__form {
+
+            margin-bottom: 35px;
+
+            h1 {
+                font-size: 28px;
+                color: var(--branco);
+            }
+
+            button {
+                background-color: var(--branco);
+                color: var(--azul-escuro);
+                font-size: 16px;
+                padding: 8px 10px;
+                border-radius: 20px;
+                border: 1px solid var(--azul-medio);
+                font-weight: 700;
+            }
+        }
+
+        &__comentarios {
+            margin-bottom: 10px;
+            padding: 0;
+            border: none;
+
+            h2 {
+                font-size: 28px;
+                color: var(--branco);
+                padding-top: 15px;
+                border-top: 1px solid var(--branco);                
+            }
+        }
+
+        &__titulo {
+            font-size: 22px;
+            color: var(--branco);
+        }
+
+        &__opcao, a {
+            font-size: 14px;
+            color: var(--branco);
+        }
+        
+        a {
+            font-size: 16px;
+        }
+    }      
+}
+
+
+
