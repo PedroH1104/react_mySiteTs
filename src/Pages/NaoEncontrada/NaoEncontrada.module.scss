@@ -52,3 +52,57 @@
         right: 140px;
     }
 }
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 480px) { 
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }       
+
+    .container {
+        padding: 2em 5% 2em 5%;
+        width: 100%;
+        background-color: var(--azul-escuro);  
+        margin: 0;  
+        flex-direction: column;
+        align-items: center; 
+        position: static;
+        
+        &__conteudo {
+
+            text-align: center;
+
+            &__error {
+                font-size: 72px;
+                margin: 0;
+            }
+
+            h1, p {
+                color: var(--branco);
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        img {
+            width: 185px;
+            bottom: 0;
+            position: static;
+            margin: 15px 0 15px 0;
+        }
+    }
+}

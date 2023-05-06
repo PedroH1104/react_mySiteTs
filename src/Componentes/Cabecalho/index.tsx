@@ -4,16 +4,23 @@ import circuloColorido from 'assets/circulo_colorido.png'
 import fotoPerfil from 'assets/minha_foto.jpg'
 import { AiOutlineMenu } from 'react-icons/ai'
 import fotoHeaderMobile from 'assets/logo__footer.png'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import classNames from 'classnames'
+import { useLocation } from 'react-router-dom'
 
 export default function Cabecalho() { 
 
     const [aberto, setAberto] = useState(false);
+    let history = useLocation();
     
     const abrirMenu = () => {
         setAberto(!aberto);
-    }
+    }    
+
+    useEffect(() => {
+        setAberto(false);
+        window.scrollTo(0,0)
+      },[history])
 
     return (
         <header>
@@ -45,15 +52,18 @@ export default function Cabecalho() {
                 <div className={styles.mobile__cabecalho}>
                     <AiOutlineMenu 
                     className={styles.mobile__cabecalho__icone}
-                    onClick={abrirMenu}
+                    onClick={abrirMenu}                    
                     />   
                     <p></p>       
                     <img src={fotoHeaderMobile} alt='logo do header'></img>                       
                 </div> 
-                <div className={classNames({
+                <div 
+                className={classNames({
                     [styles.mobile__nav]: true,
                     [styles.aparecer]: aberto
-                })}>                
+                })}
+                onBlur={() => setAberto(false)}
+                >                 
                     <Nav></Nav>                
                 </div>                 
             </section>

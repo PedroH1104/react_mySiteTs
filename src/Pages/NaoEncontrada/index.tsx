@@ -1,13 +1,20 @@
 import Nav from 'Componentes/Nav'
 import styles from './NaoEncontrada.module.scss'
 import erro404 from 'assets/erro_404.png'
+import Cabecalho from 'Componentes/Cabecalho'
 
 export default function NaoEncontrada() {
   return (
     <main>
-      <div className={styles.nav}>
-        <Nav></Nav>
-      </div>
+      <section className={styles.desktop}>
+        <div className={styles.nav}>
+          <Nav></Nav>
+        </div>
+      </section>
+
+      <section className={styles.mobile}>
+        <Cabecalho></Cabecalho>
+      </section>         
 
       <div className={styles.container}>
         <div className={styles.container__conteudo}>
@@ -21,7 +28,7 @@ export default function NaoEncontrada() {
               src={erro404}
               alt="Cachorro de óculos e vestido como humano"
         />
-      </div>  
+      </div>        
     </main>
   )
 }

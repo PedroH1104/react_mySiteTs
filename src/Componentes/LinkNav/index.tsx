@@ -18,7 +18,7 @@ export default function LinkNav({icone, children, to}: linkNavProps) {
         className={classNames({
             [styles.navLink]: true,
             [styles.navLink__ativo]: atual === to
-        })}        
+        })}               
         to={to}
         end
     >
